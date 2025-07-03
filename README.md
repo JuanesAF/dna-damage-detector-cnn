@@ -82,6 +82,6 @@ Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor cre
 
 ## Contacto
 - Juan Esteban Acosta Franco: [jeaf016@hotmail.com](mailto:jeaf016@hotmail.com)
-- Juan Esteban Acosta Franco: [LinkedIn](https://www.linkedin.com/in/juanestebanacosta)
+- Juan Esteban Acosta Franco: [LinkedIn](https://www.linkedin.com/in/juanesacostaf)
 ---
 **Palabras clave**: Procesamiento Digital de Imágenes, Inteligencia Artificial, Redes Neuronales Convolucionales, Ensayo Cometa, ADN, Segmentación Semántica, Aprendizaje Profundo.
