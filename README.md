@@ -46,7 +46,7 @@ El proyecto actualmente es utilizado en el Laboratorio de Biología Celular de l
    
    - El propósito fundamental de CometScanner es ofrecer a la comunidad científica y a profesionales en biología celular y genética una herramienta avanzada y fácil de usar para la clasificación y cuantificación precisa del daño al ADN en células del Ensayo Cometa. La aplicación está diseñada para agilizar y mejorar significativamente el proceso de análisis de imágenes, permitiendo una investigación más eficiente. Esto se logrará mediante la creación de una interfaz intuitiva que permita la importación y clasificación de imágenes del Ensayo Cometa, la automatización de la clasificación de células según el daño del ADN, la facilitación de la interpretación de resultados a través de una representaci ón visual clara, la personalización de la ubicación de almacenamiento de los resultados para los usuarios, y la provisión de recursos de ayuda, como tutoriales en video, para garantizar una experiencia de usuario sin complicaciones.
 ## Instalación y uso
-El código de este proyecto está disponible en [GitHub](https://github.com/tu-usuario/tu-repositorio). Para ejecutar la aplicación:
+El código de este proyecto está disponible en [GitHub](https://github.com/JuanesAF/dna-damage-detector-cnn). Para ejecutar la aplicación:
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
@@ -64,14 +64,24 @@ de desarrollo Python preferido
    ```bash
    python Application.py
    ```
-**Nota**: Debe ajustar la ruta del archivo del modelo entrenado en el código "Application". Además, es necesario modicar la ruta del archivo "label_class_dict.csv" dentro del código "model".
+**Nota**: Debe ajustar la ruta del archivo del modelo entrenado en el código "Application". Además, es necesario modificar la ruta del archivo "label_class_dict.csv" dentro del código "model".
+
+proyecto-cometa/
+├── models/              # Modelos preentrenados
+├── data/                # Dataset de imágenes
+├── src/
+│   ├── processing.py    # Procesamiento de imágenes
+│   ├── training.py      # Entrenamiento de modelos
+│   └── gui.py           # Interfaz gráfica
+├── docs/                # Documentación técnica
+└── requirements.txt     # Dependencias
+
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor crea un fork del repositorio y envía tus pull requests.
-## Licencia
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
 ## Contacto
 - Juan Esteban Acosta Franco: [jeaf016@hotmail.com](mailto:jeaf016@hotmail.com)
-- Juan Felipe Quiroga Rodríguez: [juan.quiroga@email.com](mailto:juan.quiroga@email.com)
+- Juan Esteban Acosta Franco: [LinkedIn](https://www.linkedin.com/in/juanestebanacosta)
 ---
 **Palabras clave**: Procesamiento Digital de Imágenes, Inteligencia Artificial, Redes Neuronales Convolucionales, Ensayo Cometa, ADN, Segmentación Semántica, Aprendizaje Profundo.
