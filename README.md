@@ -66,22 +66,25 @@ de desarrollo Python preferido
    ```
 **Nota**: Debe ajustar la ruta del archivo del modelo entrenado en el código "Application". Además, es necesario modificar la ruta del archivo "label_class_dict.csv" dentro del código "model".
 
-proyecto-cometa/
-├── models/              # Modelos preentrenados
-├── data/                # Dataset de imágenes
-├── src/
-│   ├── processing.py    # Procesamiento de imágenes
-│   ├── training.py      # Entrenamiento de modelos
-│   └── gui.py           # Interfaz gráfica
-├── docs/                # Documentación técnica
-└── requirements.txt     # Dependencias
+## 📁 Estructura del Repositorio
 
+```plaintext
+comet-assay-analyzer/
+├── Application.py          # Script principal de la interfaz gráfica
+├── model.py                # Definición del modelo de segmentación (CNN)
+├── hmax.py                 # Procesamiento morfológico (h-domes)
+├── label_class_dict.csv    # Diccionario de clases para la clasificación
+├── COMETS.ui               # Archivo de diseño de la interfaz (Qt Designer)
+├── README.md               # Documentación del proyecto
+├── cells.gif               # GIF ilustrativo de células cometa
+├── comet.gif               # GIF ilustrativo del proceso
+├── videos.gif              # GIF de demostración de uso
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor crea un fork del repositorio y envía tus pull requests.
 
 ## Contacto
-- Juan Esteban Acosta Franco: [jeaf016@hotmail.com](mailto:jeaf016@hotmail.com)
-- Juan Esteban Acosta Franco: [LinkedIn](https://www.linkedin.com/in/juanesacostaf)
+- E-mail: [jeaf016@hotmail.com](mailto:jeaf016@hotmail.com)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juanesacostaf)
 ---
-**Palabras clave**: Procesamiento Digital de Imágenes, Inteligencia Artificial, Redes Neuronales Convolucionales, Ensayo Cometa, ADN, Segmentación Semántica, Aprendizaje Profundo.
+**Palabras clave**: Procesamiento Digital de Imágenes, Inteligencia Artificial, Redes Neuronales Convolucionales, Ensayo Cometa, ADN, Segmentación Semántica, Aprendizaje Profundo.CNN, AI
