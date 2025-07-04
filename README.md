@@ -80,6 +80,8 @@ comet-assay-analyzer/
 ├── comet.gif               # GIF ilustrativo del proceso
 ├── videos.gif              # GIF de demostración de uso
 
+```
+
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor crea un fork del repositorio y envía tus pull requests.
 
