@@ -69,17 +69,15 @@ de desarrollo Python preferido
 ## 📁 Estructura del Repositorio
 
 ```plaintext
-comet-assay-analyzer/
-├── Application.py          # Script principal de la interfaz gráfica
-├── model.py                # Definición del modelo de segmentación (CNN)
-├── hmax.py                 # Procesamiento morfológico (h-domes)
-├── label_class_dict.csv    # Diccionario de clases para la clasificación
-├── COMETS.ui               # Archivo de diseño de la interfaz (Qt Designer)
-├── README.md               # Documentación del proyecto
-├── cells.gif               # GIF ilustrativo de células cometa
-├── comet.gif               # GIF ilustrativo del proceso
-├── videos.gif              # GIF de demostración de uso
-
+Directory structure:
+└── juanesaf-dna-damage-detector-cnn/
+    ├── README.md
+    ├── Application.py
+    ├── COMETS.ui
+    ├── hmax.py
+    ├── label_class_dict.csv
+    ├── model.py
+    └── requirements.txt
 ```
 
 ## Contribuciones
