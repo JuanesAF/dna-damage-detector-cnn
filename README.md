@@ -6,19 +6,19 @@ Automatic comet assay image analysis using CNN and image processing
 This project develops an automatic method for the classification and counting of cells in Comet Assay images, using Digital Image Processing and Machine Learning techniques. The Comet Assay is a widely used method to study DNA damage in cells, but traditionally its evaluation is performed manually, which is time consuming and error prone. This method automates this process, achieving an accuracy of up to 97.44%.
 The project is currently being used in the Cell Biology Laboratory of the Pontificia Universidad Javeriana in Cali.
 
-##🔍 Main features
+## 🔍 Main features
 - **Image processing**: Uses morphological reconstruction techniques (h-domains) to improve image quality and highlight comet cells.
 - **Deep learning models**: Trains and compares various convolutional neural network architectures (U-Net, UNet++, DeepLabV3+, LinkNet, PAN) with ResNet50 encoder for semantic segmentation of cells.
 - **Desktop application**: Graphical interface (developed with PyQt5) allowing to upload images, process them and obtain results in labeled image format and Excel file with quantitative data for each cell (area, intensity, type of DNA damage).
 - **Comprehensive validation**: Automated results were compared with manual expert evaluations, demonstrating increased accuracy and reliability.
 
-##📈 Outstanding results
+## 📈 Outstanding results
 - Accuracy (IoU Score) of up to **97.44%** with UNet++ architecture and h-dome processed images (h=200).
 - Significant reduction of analysis time: from 30-60 minutes (manual) to a few seconds.
 - Classification of DNA damage into five categories: no damage, mild, moderate, serious and critical.
 - Favorable comparison with existing tools (such as OpenComet), surpassing them in accuracy and reducing false positives/negatives.
 
-##💻 Technologies used
+## 💻 Technologies used
 - **Programming language**: Python 3.6
 - **Main libraries**:
   - PyTorch (for neural networks).
@@ -30,7 +30,7 @@ The project is currently being used in the Cell Biology Laboratory of the Pontif
   - Matplotlib, Seaborn (visualization)
 - **Tools**: ImageJ (image preprocessing), Git (version control).
 - **ML models**: U-Net, UNet++, DeepLabV3+, LinkNet, PAN, ResNet50 (encoder).
-## Methodology
+## 🔄 Methodology
 1. **Image preprocessing**:
    - Conversion to grayscale (green channel) and application of h-domain technique to highlight cells.
    - Noise and artifacts removal by thresholding and area filtering.
@@ -48,7 +48,7 @@ The project is currently being used in the Cell Biology Laboratory of the Pontif
    
    - The fundamental purpose of CometScanner is to provide the scientific community and professionals in cell biology and genetics with an advanced and easy-to-use tool for the accurate classification and quantification of DNA damage in Comet Assay cells. The application is designed to significantly streamline and improve the image analysis process, enabling more efficient research. This will be achieved by creating an intuitive interface that allows for the import and sorting of images from the Comet Assay, automating the sorting of cells according to DNA damage, facilitating the interpretation of results through clear visual representation, customizing the storage location of results for users, and providing help resources, such as video tutorials, to ensure a smooth user experience.
 
-##⚙️ Installation and use
+## ⚙️ Installation and use
 The code for this project is available on [GitHub](https://github.com/JuanesAF/dna-damage-detector-cnn). To run the application:
 1. Clone the repository:
  ```bash
